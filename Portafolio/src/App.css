@@ -1,0 +1,13 @@
+
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+.logo {
+  @apply w-44 h-40;
+}
+
+.perfil {
+  @apply bg-cover;
+}
