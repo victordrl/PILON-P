@@ -95,7 +95,7 @@ const toolsData = [
     children: (
       <img src="MySQL.svg" alt="MySQL logo" className="sm:size-14 size-10" />
     ),
-    contenido: "Avaanzado",
+    contenido: "Avanzado",
   },
   {
     titulo: "Qt Designer",
