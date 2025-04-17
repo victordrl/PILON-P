@@ -134,7 +134,7 @@ const toolsData = [
 
 export default function Skils() {
   return (
-    <div className="flex flex-col mx-auto  px-4">
+    <div id="skil" className="flex flex-col mx-auto  px-4">
       <h2 className="sub-title">Mis Habilidades</h2>
 
       <h3 className="mini-title">Lenguajes de programación</h3>

@@ -24,7 +24,10 @@ export default function Footer() {
   };
 
   return (
-    <footer className="footer bg-primary text-primary-content p-10 justify-center">
+    <footer
+      id="info"
+      className="footer bg-primary text-primary-content p-10 justify-center"
+    >
       <div className=" sm:footer-horizontal footer-vertical ">
         <aside>
           <div className="mask mask-squircle w-24 my-4">

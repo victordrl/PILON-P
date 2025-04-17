@@ -4,7 +4,7 @@ import { useState } from "react";
 import { IoMail } from "react-icons/io5";
 import { IoLogoGithub } from "react-icons/io";
 import { IoLogoWhatsapp } from "react-icons/io";
-import { IoLogoLinkedin } from "react-icons/io";
+// import { IoLogoLinkedin } from "react-icons/io";
 import { HiDocumentArrowDown } from "react-icons/hi2";
 
 export default function Header() {
@@ -25,7 +25,10 @@ export default function Header() {
   };
 
   return (
-    <header className="navbar justify-center bg-base-300 min-h-[80vh] p-10">
+    <header
+      id="home"
+      className="navbar justify-center bg-base-300 min-h-[80vh] p-10"
+    >
       <div className="card card-border bg-base-100 text-base-content shadow-2xl w-[400px] p-4">
         <figure className="self-center -mx-6">
           <img

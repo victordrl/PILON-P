@@ -22,3 +22,7 @@
 .mini-title {
   @apply text-3xl p-2 opacity-90;
 }
+
+.minisub-title {
+  @apply text-lg opacity-70 px-2;
+}

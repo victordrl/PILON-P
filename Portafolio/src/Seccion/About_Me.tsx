@@ -25,7 +25,7 @@ const data_card = [
 
 export default function About_Me() {
   return (
-    <main className="">
+    <main id="me" className="">
       <h2 className="sub-title"> Sobre Mi </h2>
       <p className="text-center sm:text-lg text-md p-4">
         Hola, soy Victor Rojas, estudiante de Ingeniería Informática apasionado

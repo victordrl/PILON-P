@@ -28,8 +28,8 @@ export default function CardInfo({ children, titulo, contenido }: Props) {
       {children}
       <div className="flex flex-col justify-center p-2 gap-1">
         <div>{titulo}</div>
-        <div className="flex justify-center text-xs uppercase font-semibold opacity-60 ite">
-          <div className={badgeClass}></div>
+        <div className="flex text-xs uppercase font-semibold opacity-60 ite">
+          {/* <div className={badgeClass}></div> */}
           {contenido}
         </div>
       </div>
