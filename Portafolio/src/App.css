@@ -12,17 +12,21 @@
 }
 
 .cuerpito {
-  @apply sm:border-2 border-base-200 shadow-accent h-min bg-base-300 sm:max-w-4xl mx-auto -mt-8 p-4;
+  @apply flex flex-col items-center sm:border-2 border-base-200 shadow-accent h-min bg-base-300 sm:max-w-4xl mx-auto -mt-8 p-4;
 }
 
 .sub-title {
-  @apply font-bold text-4xl text-center pb-4;
+  @apply sm:font-bold font-semibold sm:text-4xl text-3xl text-center sm:pb-4 pb-2;
 }
 
 .mini-title {
-  @apply text-3xl p-2 opacity-90;
+  @apply sm:text-3xl text-xl p-2 opacity-90;
 }
 
 .minisub-title {
-  @apply text-lg opacity-70 px-2;
+  @apply sm:text-lg opacity-70 px-2;
+}
+
+.menu-contenido {
+  @apply menu bg-primary text-primary-content rounded-box shadow-2xl flex justify-center h-[400px] gap-4 z-50;
 }

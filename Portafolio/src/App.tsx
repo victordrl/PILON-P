@@ -8,6 +8,7 @@ import Footer from "./Seccion/Footer";
 import Header from "./Seccion/Header";
 import Menu from "./Seccion/Menu";
 import Skils from "./Seccion/Skils";
+import Proyectos from "./Seccion/Proyectos";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <Experiencia />
         <div className="divider" />
         <Education />
+        <div className="divider" />
+        <Proyectos />
       </div>
       <Footer />
     </>

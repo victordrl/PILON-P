@@ -138,7 +138,7 @@ export default function Skils() {
       <h2 className="sub-title">Mis Habilidades</h2>
 
       <h3 className="mini-title">Lenguajes de programación</h3>
-      <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-4 shadow p-4">
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] sm:w-3xl gap-4 p-4 shadow">
         {skillsData.map((skill, index) => (
           <CardSkils
             key={index}

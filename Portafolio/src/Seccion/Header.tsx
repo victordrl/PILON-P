@@ -7,6 +7,8 @@ import { IoLogoWhatsapp } from "react-icons/io";
 // import { IoLogoLinkedin } from "react-icons/io";
 import { HiDocumentArrowDown } from "react-icons/hi2";
 
+import cv from "../assets/CVPilon.pdf";
+
 export default function Header() {
   const [copyMessage, setCopyMessage] = useState("");
 
@@ -27,8 +29,9 @@ export default function Header() {
   return (
     <header
       id="home"
-      className="navbar justify-center bg-base-300 min-h-[80vh] p-10"
+      className="navbar justify-center bg-base-300 min-h-[80vh] p-10 text-transparent"
     >
+      .
       <div className="card card-border bg-base-100 text-base-content shadow-2xl w-[400px] p-4">
         <figure className="self-center -mx-6">
           <img
@@ -37,10 +40,10 @@ export default function Header() {
             className="bg-cover mask mask-squircle"
           />
         </figure>
-        <div className="flex card-body text-center justify-center">
+        <div className="flex flex-col p-2 sm:card-body text-center justify-center">
           <h1 className="font-semibold text-2xl">Desarrollador de Sowtfare</h1>
           <p className="font-light text-xl">Victor Daniel Rojas Lopez</p>
-          <div className="menu menu-horizontal bg-base-300 rounded-box md:gap-8 gap-2 m-auto">
+          <div className="menu menu-horizontal bg-base-300 rounded-box md:gap-8 gap-3 m-auto">
             <a
               href="https://github.com/victordrl"
               target="_blank"
@@ -65,12 +68,18 @@ export default function Header() {
             >
               <IoMail className="sm:size-11 size-7" />
             </a>
-            <a className="tooltip" data-tip="Curriculum">
+            <a
+              href={cv}
+              download="CV_Victor_Rojas.pdf"
+              className="tooltip"
+              data-tip="Curriculum"
+            >
               <HiDocumentArrowDown className="sm:size-11 size-7" />
             </a>
           </div>
         </div>
       </div>
+      .
     </header>
   );
 }

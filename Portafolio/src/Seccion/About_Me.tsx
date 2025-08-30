@@ -14,12 +14,12 @@ const data_card = [
   {
     children: <SiPagespeedinsights className="size-16" />,
     titulo: "</>",
-    contenido: "Creación de sitios web responsivos y dinámicos",
+    contenido: "Creación de sitios Web responsivos y dinámicos",
   },
   {
     children: <AiFillDatabase className="size-16" />,
     titulo: "SQL",
-    contenido: "Diseño y mantenimiento de bases de datos relacionales",
+    contenido: "Analisis de datos, Diseño y matenimiento DB",
   },
 ];
 
@@ -33,8 +33,9 @@ export default function About_Me() {
         representen desafíos reales, donde pueda aplicar mi creatividad y seguir
         aprendiendo cada día.
         <br />
-        Me apasiona el desarrollo de redes neuronales e inteligencia artificial,
-        así como la creación de videojuegos.
+        Experiencia en el uso de herramientas estadísticas y software de
+        análisis de datos, con habilidades para diseñar reportes y
+        visualizaciones que faciliten la comprensión de patrones y tendencias
       </p>
       <div className="flex flex-col sm:flex-row gap-4">
         {data_card.map((data, index) => (

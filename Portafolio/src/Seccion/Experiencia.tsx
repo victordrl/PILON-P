@@ -1,54 +1,36 @@
 //EXPERIENCIA
 
-import { IoLinkOutline } from "react-icons/io5";
+import Acordeon from "../compnent/Acordeon_exp";
 
 export default function Experiencia() {
-  const kiariPageUrl = "https://www.kiarishop.com"; // URL de la página
+  const experiencias = [
+    {
+      empresa: "Kiari Shop House J & L, C.A.",
+      cargo: "Ingeniero Sistemas",
+      tiempo: " 2021 - 2025",
+      lista: [
+        "Desarrollo de página web estática para la empresa, fortaleciendo su presencia digital y facilitando la comunicación comercial.",
+        "Supervisión de procesos de producción.",
+        "Control de calidad del producto.",
+        "Gestión de inventario.",
+        "Optimización de operaciones en la producción.",
+        "Capacitación técnica al personal.",
+      ],
+      path: "https://www.kiarishop.com",
+      open: true,
+    },
 
+    // Puedes agregar más experiencias aquí
+  ];
   return (
-    <div id="xp">
-      <div id="educ hero h-screen">
-        <h2 className="sub-title">Experiencia</h2>
-        <div className="hero-content sm:flex-row flex-col ">
-          <div>
-            <a
-              className="link link-hover flex items-center"
-              onClick={() => window.open(kiariPageUrl, "_blank")}
-            >
-              <h3 className="mini-title">Kiari Shop House J & L, C.A. </h3>
-              <p className="text-xs px-2 opacity-80">view</p>
-              <IoLinkOutline className="size-6" />
-            </a>
-            <h4 className="minisub-title">Ingeniero Sistemas 2021 - 2025</h4>
-            <ul className="list w-2xl">
-              <li className="list-row text-lg ">
-                <div>
-                  Desarrollo de página web estática para la empresa,
-                  fortaleciendo su presencia digital y facilitando la
-                  comunicación comercial.
-                </div>
-                <a
-                  className="btn btn-primary w-max my-auto"
-                  onClick={() => window.open(kiariPageUrl, "_blank")}
-                >
-                  KIARI
-                  <IoLinkOutline className="size-6" />
-                </a>
-              </li>
-              <li className="list-row p-2 px-3">
-                Supervision de procesos de produccion
-              </li>
-              <li className="list-row p-2 px-3">
-                Control de calidad del producto
-              </li>
-              <li className="list-row p-2 px-3"> Gestion de inventario</li>
-              <li className="list-row p-2 px-3">
-                Optimizacion de operaciones en la produccion
-              </li>
-              <li className="list-row p-2 px-3">
-                Capacitacion tecnica al personal
-              </li>
-            </ul>
+    <div id="xp" className="">
+      <div className="w-full">
+        <div className="flex flex-col justify-center items-center p-4">
+          <h2 className="sub-title ">Experiencia</h2>
+          <div className="w-full">
+            {experiencias.map((exp, index) => (
+              <Acordeon key={index} {...exp} />
+            ))}
           </div>
         </div>
       </div>
