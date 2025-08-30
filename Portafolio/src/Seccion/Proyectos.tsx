@@ -36,7 +36,7 @@ export default function Portafolio() {
   ];
 
   return (
-    <div id="skil" className="flex flex-col bg-base-300 w-full p-6">
+    <div id="proyec" className="flex flex-col bg-base-300 w-full p-6">
       <h2 className="sub-title">Mis Proyectos</h2>
       <div className="grid sm:place-items-center sm:grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-4 shadow py-4">
         {proyectos.map((proyecto, index) => (

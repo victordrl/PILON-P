@@ -40,7 +40,7 @@ const menu_item = [
   {
     datatip: "Portfolio",
     icon: <IoBriefcaseSharp className="sm:size-6 size-5" />,
-    path: "#proy",
+    path: "#proyec",
   },
   {
     datatip: "Info",
