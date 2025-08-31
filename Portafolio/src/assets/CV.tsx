@@ -1,3 +1,5 @@
+import QR from "../assets/QR.png";
+
 const CV = () => {
   return (
     <svg
@@ -557,55 +559,16 @@ const CV = () => {
         fill="#d8d8d8"
       ></path>
       <svg id="f9d62ab6-0fc9-4887-8675-7b2359b076e5" x="40" y="580.959"></svg>
-      <text
-        x="40"
-        y="591.084"
-        font-family="Arial"
-        font-size="10px"
-        fill="black"
-      >
-        I
-      </text>
+
       <svg id="eb6c6577-ff1b-4e0b-aab5-2b4c00cd88f8" x="40" y="604.709"></svg>
-      <text
-        x="40"
-        y="614.834"
-        font-family="Arial"
-        font-size="10px"
-        fill="black"
-      >
+      <text x="40" y="593" font-family="Arial" font-size="10px" fill="black">
         Inglés
       </text>
-      <circle
-        cx="154.83399999999997"
-        cy="611.334"
-        r="3.75"
-        fill="#953b2c"
-      ></circle>
-      <circle
-        cx="164.83399999999997"
-        cy="611.334"
-        r="3.75"
-        fill="#ca9d95"
-      ></circle>
-      <circle
-        cx="174.83399999999997"
-        cy="611.334"
-        r="3.75"
-        fill="#ca9d95"
-      ></circle>
-      <circle
-        cx="184.83399999999997"
-        cy="611.334"
-        r="3.75"
-        fill="#ca9d95"
-      ></circle>
-      <circle
-        cx="194.83399999999997"
-        cy="611.334"
-        r="3.75"
-        fill="#ca9d95"
-      ></circle>
+      <circle cx="154.83399999999997" cy="590" r="3.75" fill="#953b2c"></circle>
+      <circle cx="164.83399999999997" cy="590" r="3.75" fill="#ca9d95"></circle>
+      <circle cx="174.83399999999997" cy="590" r="3.75" fill="#ca9d95"></circle>
+      <circle cx="184.83399999999997" cy="590" r="3.75" fill="#ca9d95"></circle>
+      <circle cx="194.83399999999997" cy="590" r="3.75" fill="#ca9d95"></circle>
       <svg id="qualities" x="40" y="633.459"></svg>
       <text
         x="40"
@@ -2739,6 +2702,18 @@ const CV = () => {
       >
         Horarios
       </text>
+      <text x="515" y="719" font-family="Arial" font-size="7px" fill="black">
+        https://victordrl.github.io/
+      </text>
+      <image
+        // preserveAspectRatio="xMidYMid slice"
+        x="494.28"
+        y="721.89"
+        width="120"
+        height="120"
+        href={QR}
+        image-rendering="optimizeSpeed"
+      ></image>
     </svg>
   );
 };
