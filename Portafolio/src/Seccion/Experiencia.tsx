@@ -16,7 +16,7 @@ export default function Experiencia() {
         "Optimización de operaciones en la producción.",
         "Capacitación técnica al personal.",
       ],
-      path: "https://www.kiarishop.com",
+      path: "https://kiari-shop-house-jl.netlify.app/",
       open: true,
     },
 
